@@ -57,6 +57,7 @@ int main(int argc, const char **argv) {
     };
 
     // Loop through the image pixels
+    // Parallelize loop, use max number of threads, use dynamic scheduling (gives chunks of default size 1 to threads)
     #pragma omp parallel for num_threads(omp_get_max_threads()) schedule(dynamic)
     for (int img_y = 0; img_y < Image_Height; img_y++) {
         for (int img_x = 0; img_x < Image_Width; img_x++) {

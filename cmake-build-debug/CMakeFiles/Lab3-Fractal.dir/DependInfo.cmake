@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/brendan/CLionProjects/untitled1/main.c" "/Users/brendan/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/Lab3-Fractal.dir/main.c.o"
+  "/Users/brendan/CLionProjects/BrendanMcKinleyParallelLab3/main.c" "/Users/brendan/CLionProjects/BrendanMcKinleyParallelLab3/cmake-build-debug/CMakeFiles/Lab3-Fractal.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
